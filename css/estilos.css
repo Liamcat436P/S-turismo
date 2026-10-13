@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.logo{
+border-radius: 58px;
+}
+.espacio-tabla{
+    padding: 20%;
+}
+.blanco{
+    color: rgb(243, 237, 237);
+    font-family: 'Courgette', cursive;
+    font-size: 17px;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.5);
+ }
+ .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+ }
+ .logo{
+    color: #909497;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+ .menu .navbar ul {
+    display: flex;
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 0 20px;
+    color: #909497;
+    display: block;
+    font-weight: 600;
+}
+.menu .navbar ul li a:hover{
+    color: orange;
+}
+
+#menu {
+    display: none;
+}
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+body{
+    background-image: url(../imagenes/a.jpg);
+}
+.verde{
+color: rgb(194, 243, 201);
+}
+.enca{
+    display: inline;
+    
+}
+.barra{
+    background:rgba(0, 0, 0, 0.5);
+    position: relative;
+    float: flex;
+    margin-right: 20px;
+
+}
+.titulo{
+    padding: 10px;
+    margin-left: 20px;
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+}
+nav, .as{
+    color: white;
+    text-decoration: none;
+    float:right;
+    padding: 8px;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+
+}
+.amarillo{
+    color: yellow;
+}
+@media(min-width:360px){
+    .titulo{
+    padding: 2px;
+    margin-left: 10px;
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    }
+}
+
